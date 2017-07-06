@@ -1,3 +1,70 @@
+/* Stylesheet naming guide:
+	rm = roadmap
+	rm_db = roadmap dashboard
+	rm_db_chk = roadmap dashboard checkpoint
+	rm_chk = roadmap checkpoint
+	rm_beg = roadmap beginning
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
-	font-family: Garamond
+	font-family: Roboto
+}
+
+a:visited {
+	color: black;
+}
+
+a:active {
+	color: darkgreen;
+}
+
+.prologue {
+	text-align: center;
+	color: black;
+}
+
+.rm_db {
+	width: 35%;
+	margin: auto;
+	padding: 7.5%;
+	text-align: center;
+	border: 2px solid green;
+}
+
+.rm_db_chk a{
+	text-decoration: none;
+}
+
+.rm_db_chk:hover{
+	background-color: lightgreen;
+}
+.rm_db_chk_name {
+	margin: auto;
+	padding: 5px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+
+}
+
+.rm_db_chk_topics {
+	border: 2px dashed green;
+	padding: 5px;
+}
+
+.vline_50 {
+	width: 0;
+	margin: auto;
+	height: 50px;
+	border: 1px solid green;
+}
+
+.rm {
+	width: 70%;
+	margin: auto;
+	margin-top: 25px;
+	padding: 2.5%;
+	border: 1px solid green;
 }
